@@ -14,4 +14,12 @@ export default class PostsService {
     });
     return response;
   }
+  static async getById(id) {
+    const response = await httpClient.get(`/posts/${id}`);
+    return response;
+  }
+  static async getCommentsById(id) {
+    const response = await httpClient.get(`/posts/${id}/comments`);
+    return response;
+  }
 }

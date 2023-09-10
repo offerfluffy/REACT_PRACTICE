@@ -23,7 +23,7 @@
   align-items: center;
 }
 
-.post__btns {
+.post_btns {
   display: flex;
 }
 
@@ -42,7 +42,7 @@
   transition: all 500ms ease-in;
 }
 
-.page__wrapper {
+.page_wrapper {
   margin-top: 30px;
   display: flex;
 }
@@ -53,7 +53,7 @@
   cursor: pointer;
 }
 
-.page__current {
+.page_current {
   border: 2px solid orange;
   font-weight: bold;
 }
@@ -67,6 +67,6 @@
   background: lightgray;
 }
 
-.navbar__links {
+.navbar_links {
   margin-left: auto;
 }
